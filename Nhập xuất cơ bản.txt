@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import java.util.concurrent.SynchronousQueue;
+
+public class b1 {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       int t=sc.nextInt();
+       for(int i=1;i<=t;i++)
+       {
+           float a=sc.nextFloat();  
+           float b=sc.nextFloat();
+          // System.out.printf();
+           System.out.printf("Bo Test %03d %.3f\n",i,a/b);
+       }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
